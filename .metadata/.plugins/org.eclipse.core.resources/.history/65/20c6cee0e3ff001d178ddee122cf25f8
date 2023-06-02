@@ -1,0 +1,5 @@
+package com.ums.dao;
+
+public class UserDAOImpl {
+
+}

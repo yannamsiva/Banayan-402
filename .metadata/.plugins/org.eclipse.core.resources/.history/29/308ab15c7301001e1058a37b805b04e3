@@ -1,0 +1,24 @@
+package com.pms.model;
+
+public class Product {
+
+	private int pid;
+	private String pname;
+	private int qty;
+	private int price;
+	
+	
+	
+	
+	
+	
+	
+	public Product() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+}

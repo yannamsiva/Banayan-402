@@ -1,0 +1,10 @@
+package com.ums.dao;
+
+public class UserClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

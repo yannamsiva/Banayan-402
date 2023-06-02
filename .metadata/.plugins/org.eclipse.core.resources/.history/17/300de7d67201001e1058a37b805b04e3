@@ -1,0 +1,34 @@
+package com.pms.dao.impl;
+
+import java.util.List;
+
+import com.pms.dao.ProductDAO;
+import com.pms.model.Product;
+
+public class ProductDAOImpl implements ProductDAO {
+
+	@Override
+	public void saveProduct() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Product> viewAllProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product viewProduct(int pid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteProduct() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

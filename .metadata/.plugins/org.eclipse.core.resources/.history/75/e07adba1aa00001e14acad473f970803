@@ -1,0 +1,18 @@
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="Mygroup";
+
+char charAt = str.charAt(0);
+
+System.out.println(charAt);
+
+
+System.out.println(str.length());
+
+
+	}
+
+}

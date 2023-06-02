@@ -1,0 +1,59 @@
+package com.ums.dao;
+
+import java.util.Scanner;
+
+import com.ums.pojo.User;
+
+public class UserDAOImpl {
+
+	
+	User []addUser=new User[3];
+	
+	Scanner sc=new Scanner(System.in);
+	
+	public void register()
+	{
+		
+		for(int i=0;i<addUser.length;++i)
+			
+		{
+		System.out.println("Enter User Id");
+		int id=sc.nextInt();
+		System.out.println("Enter firstName");
+		String fname=sc.next();
+		System.out.println("Enter Last Name");
+			String lname=sc.next();
+			System.out.println("Enter UserName");
+			String uname=sc.next();
+			System.out.println("Enter PassWord");
+			String pass=sc.next();
+			User user=new User(id,fname,lname,uname,pass);
+			addUser[i]=user;
+			System.out.println("User Register Succesfully");
+		}
+		
+		
+		
+		
+		
+		
+	}//end of register
+	
+	boolean verifyValidUserNamePassWrod(String uname,String pwd)
+	{
+		
+		for(User u : addUser)
+		{
+			if(u.getUserName().equals(uname)&& u.getPassword().equals(pwd))
+			{
+
+			return true;
+				
+			}
+		}
+		
+		return false;
+		
+	}
+	
+}

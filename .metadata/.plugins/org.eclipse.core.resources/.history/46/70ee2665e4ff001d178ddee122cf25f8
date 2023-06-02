@@ -1,0 +1,26 @@
+package com.ums.dao;
+
+import com.ums.pojo.User;
+
+public class UserDAOImpl {
+
+	
+	User addUser=new User();
+	
+	
+	
+	public void register()
+	{
+		
+	}//end of register
+	
+	boolean verifyValidUserNamePassWrod()
+	{
+		
+		
+		
+		return false;
+		
+	}
+	
+}
